@@ -1,0 +1,44 @@
+ {
+ "details":{
+		"name":"sravani",
+		"image":"img.png",
+		"phone":"9490518346",
+		"email":"sravs@gmail.com"
+	},
+	"education":[
+		{
+          "course":"B.tech",
+          "college":"D V R & Dr.H S MIC COLLEGE OF TECHNOLOGY",
+          "branch":"CSE",
+          "percentage":"70%"
+
+		},
+		{
+            "course":"intermediate",
+          "college":"narayana junior college",
+          "branch":"mpc",
+          "percentage":"94%"
+
+		},
+		{
+           "course":"schooling",
+          "school":"st josephs E M high school",
+          "percentage":"94%"
+        }
+        ],
+	"skills":[
+		{
+		  "title":"programming langyuages",
+		  "output":[
+		  	"c","c++","java","python"
+
+		  ]
+		},
+		{
+           "title":"operating systems",
+           "output":[
+             "windows","linux","MAC"
+           ]
+		}
+	]
+}

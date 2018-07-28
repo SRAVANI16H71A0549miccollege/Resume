@@ -1,15 +1,50 @@
 .main{
 	width:100%;
 	background-color:#c45e45;
-	display: flex; 
+	display: flex;
+	justify-content:center;
+	text-align:center; 
 
 }
 .left{
 	width:30%;
 	border:5px solid #2df;
+	box-shadow:3px 3px 3px white;
+	margin:1%;
+	padding:1%;
+	background-color:white;
 }
 .right{
-	width:20%;
+	width:50%;
 	border:px solid #00f;
+    box-shadow:3px 3px 3px white;
+	margin:1%;
+	padding:1%;
+	background-color:white;
+}
+img
+{
+	width=50px;
+}
+h1,
+h2,
+h3{
+	font-size=33px;
+}
+@media only screen and (min-width: 700px) and (max-width: 400px){
+	.main{}
 
+		display:flex;
+		flex-wrap:wrap;
+	
+}
+.left{
+	width:200%;
+}
+}
+@media only screen and(min-width: :426px){
+	.main{
+		display:flex;
+		flex-direction: column;
+	}
 }
