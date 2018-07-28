@@ -15,7 +15,6 @@ loadjson("data.json",function (text){
 	basic(data.details);
 	edu(data.education);
 	skill(data.skills);
-	carr(data.career);
 })
  var main=document.querySelector(".main");
 var left=document.createElement("div");
@@ -79,18 +78,5 @@ function skill(skilldata){
      }
      head.appendChild(t);
 
-
-}
-function carr(career){
-var d=document.createElement("div");
-d.classList.add("career");
-right.appendChild(d);
-var e=document.createElement("h1");
-e.textContent="career objective";
-d.appendChild(e);
-d.appendChild(document.createElement("HR"));
-var para=document.createElement("p");
-para.textContent=career.co;
-e.appendChild(para);
 
 }

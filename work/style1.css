@@ -92,10 +92,3 @@ h3{
 	background-color:#FFFACD;
 	
 }
-table,tr,td{
-	border:2px solid #000;
-	border-collapse: collapse;
-}
-table{
-	margin-left:25%;
-}
